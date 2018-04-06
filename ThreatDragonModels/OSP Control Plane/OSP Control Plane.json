@@ -52,16 +52,26 @@
               "angle": 0,
               "id": "30163146-ed49-4587-ba25-c9bc33aca1f7",
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "title": "Unencrypted AMQP traffic",
+                  "description": "OpenStack queue traffic could possibly be exposed.",
+                  "mitigation": "Encrypt the communication between the RabbitMQ and its clients."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "beam.smp"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
