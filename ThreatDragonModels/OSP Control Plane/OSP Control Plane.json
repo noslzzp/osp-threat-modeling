@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "OSP Control Plane",
+    "owner": "Keith Basil",
+    "description": "Testing the Skydive data import."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "OSP Controller",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
