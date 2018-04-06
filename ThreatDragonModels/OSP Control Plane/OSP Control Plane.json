@@ -204,8 +204,8 @@
                 "height": 100
               },
               "position": {
-                "x": 461,
-                "y": 433
+                "x": 481,
+                "y": 359
               },
               "angle": 0,
               "id": "27ba4f28-be0c-4817-86c0-1c380a919ef7",
@@ -220,6 +220,46 @@
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "27ba4f28-be0c-4817-86c0-1c380a919ef7"
+              },
+              "target": {
+                "id": "30163146-ed49-4587-ba25-c9bc33aca1f7"
+              },
+              "vertices": [
+                {
+                  "x": 328,
+                  "y": 444
+                }
+              ],
+              "id": "9dac7ebe-96dd-4d18-b360-21d9dfee9808",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "RabbitMQ",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "protocol": "amqp",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
